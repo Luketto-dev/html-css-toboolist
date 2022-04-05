@@ -23,3 +23,33 @@ header img{
 header h1{
     display: inline-block;
 }
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-container{
+    padding: 15px 0px 15px 60px;
+    border-bottom: 1px solid rgb(198, 197, 197);
+}
+
+.button-container button{
+    padding: 5px;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 7px;
+    font-size: 14px;
+}
+.bg-blue{
+    background-color: rgb(121, 186, 255);
+    color: rgb(255, 255, 255);
+}
+
+.bg-white{
+    background-color: rgb(255, 255, 255);
+    color: rgb(198, 197, 197);
+
+}
+
