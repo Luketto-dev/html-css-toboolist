@@ -1,3 +1,5 @@
+/* azzero impostazioni di default */
+/* selettori */
 *{
     margin: 0;
     padding: 0;
@@ -20,15 +22,18 @@ header img{
     vertical-align: bottom;
 }
 
-header h1{
-    display: inline-block;
-}
-
+/* centratura orizzontale del main e stile  */
 main{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/* utiliy: mi serve per tutti i titoli o altri elemtni block che devono avere altri elementi affiancati */
+.inline-block{
+    display: inline-block;
 }
 
 .button-container{
@@ -36,12 +41,14 @@ main{
     border-bottom: 1px solid rgb(198, 197, 197);
 }
 
+/* stile bottoni in alto */
 .button-container button{
     padding: 5px;
     border: 1px solid rgb(198, 197, 197);
     border-radius: 7px;
     font-size: 14px;
 }
+
 .bg-blue{
     background-color: rgb(121, 186, 255);
     color: rgb(255, 255, 255);
@@ -50,6 +57,65 @@ main{
 .bg-white{
     background-color: rgb(255, 255, 255);
     color: rgb(198, 197, 197);
+}
 
+/* sezione task  */
+.task{
+    padding: 30px 0px 30px 60px ;
+}
+
+.task-container{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* classe per creare un cerchio */
+.task-container .circle{
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* divido i diversi tipi di cerchio in base al colore e bordo diverso */
+.task-container .circle-green{
+    border: 1px solid green;
+    color: green;
+}
+
+.task-container .circle-red{
+    border: 1px solid red;
+    color: red;
+
+}
+
+/* stilizzo etichetta : classe utilizzabile anche per tutte le altre etichette  */
+.label{
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 7px;
+}
+
+/* creo classi per dividere le etichette in base ai colori  */
+.bg-green{
+    background-color: rgb(11, 150, 11);
+}
+
+.bg-violet{
+    background-color: rgb(113, 59, 144);
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-red{
+    background-color: rgb(193, 6, 65);
+}
+
+.bg-mustard{
+    background-color: #A09323;
 }
 

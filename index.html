@@ -11,17 +11,83 @@
     <header>
         <div>
             <img src="img/Logo.png" alt="logo boolean">
-            <h1>Toboolist</h1>
+            <h1 class="inline-block">Toboolist</h1>
         </div>
     </header>
 
     <main>
+        <!-- contenitere per i button -->
         <div class="button-container">
             <button class="bg-blue">Add Task</button>
             <button class="bg-white">Add Section</button>
         </div>
 
-       
+        <section class="task">
+            <!-- new task -->
+            <span>&#9660;</span>
+            <h3 class="inline-block">New Task</h3>
+            <!-- inserisco un contenitore per ogni task per far rimanere il contenuto sulla stessa linea -->
+            <div class="task-container">
+                <span class="circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Quarterly Newsletter</h5>
+                <button class="label bg-blue">Editorial</button>
+            </div>
+
+            <!-- today task -->
+            <span>&#9660;</span>
+            <h3 class="inline-block">Today</h3>
+            
+            <div class="task-container">
+                <span class="circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Recruiting blog post</h5>
+                <button class="label bg-blue">Editorial</button>
+            </div>
+
+            <div class="task-container">
+                <span class="circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Mobile app luaunch</h5>
+                <button class="label bg-violet">Q1 Goals</button>
+            </div>
+
+            <div class="task-container">
+                <span class="circle circle-red">&#10006;</span>
+                <h5 class="inline-block">Interview John H.</h5>
+                <button class="label bg-green">Recruiting</button>
+            </div>
+            
+            <div class="task-container">
+                <span class=" circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Summit update to mobile storefronts</h5>
+                <button class="label bg-orange">Mobile</button>
+            </div>
+
+            <!-- upcoming task -->
+            <span>&#9660;</span>
+            <h3 class="inline-block">Upcoming</h3>
+
+            <div class="task-container">
+                <span class="circle circle-red">&#10006;</span>
+                <h5 class="inline-block">Schedule meeting with Alex</h5>
+            </div>
+
+            <div class="task-container">
+                <span class="circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Homepage refresh</h5>
+                <button class="label bg-red">Website</button>
+            </div>
+
+            <div class="task-container">
+                <span class="circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Onboard new Sales team storefronts</h5>
+                <button class="label bg-mustard">Sales</button>
+            </div>
+            
+            <div class="task-container">
+                <span class=" circle circle-green">&#10004;</span>
+                <h5 class="inline-block">Review editorial calendar</h5>
+                <button class="label bg-blue">Editorial</button>
+            </div>
+        </section>
     </main>
     
 </body>
